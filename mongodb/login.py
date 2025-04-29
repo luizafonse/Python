@@ -29,7 +29,7 @@ def validar_acesso(usuario, senha):
 def abrir_app():
     screen.destroy()
     # Trocar index.py para o nome da sua outra tela
-    subprocess.run(["python", "mongodbfirst.py"])
+    subprocess.run(["python", "menu.py"])
 def click_botao():
     usuario = txt_usuario.get()
     senha = txt_senha.get()
